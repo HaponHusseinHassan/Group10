@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Responsive Featured Post</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header -->
+  <div class="bg-purple-700 text-white">
+    <header class="flex items-center justify-between px-6 py-4 bg-white text-black">
+        <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-house text-2xl"></i>
+            <h1 class="text-xl font-bold">House</h1>
+        </div>
+        <nav class="hidden md:flex space-x-6 text-black font-bold">
+            <a href="#" class="hover:text-gray-300">Home</a>
+            <a href="#" class="hover:text-gray-300">About</a>
+            <a href="#" class="hover:text-gray-300">Posts</a>
+        </nav>
+        <a href="#" class="hidden md:block px-4 py-2 text-sm font-bold text-white bg-black rounded-lg">Contact Us</a>
+    </header>
+  
+  <!-- Main  -->
+    <main class="flex flex-col md:flex-row items-center justify-between px-6 py-12 md:px-20">
+        <div class="text-center md:text-left md:max-w-lg">
+            <p class="text-lg font-semibold uppercase">Featured Post</p>
+            <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">How AI will <br> Change the Future.</h2>
+            <p class="mt-6 text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta blanditiis temporibus
+            voluptate, earum consequuntur optio labore sapiente, asperiores numquam ab animi
+            doloremque!
+            </p>
+            <a href="#" class="inline-block mt-6 px-6 py-3 text-lg font-semibold text-black bg-white rounded-lg hover:bg-gray-200">Read More</a>
+        </div>
+        <div class="mt-8 md:mt-0">
+            <img class="rounded-lg shadow-lg" src="face-recognition-personal-identification-collage.jpg" width="300" height="300" alt="AI illustration">
+        </div>
+    </main>
+  </div>
+
+    <!-- Section 1 -->
+    <section class="max-w-7xl mx-auto p-6 mt-[100px]">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Our Recent Post</h2>
+        <div class="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden">
+            
+            <div class="md:w-1/2">
+                <img src="person-with-futuristic-robotic-body-part.jpg" alt="A robotic hand holding a butterfly" class="w-full h-full object-cover"/>
+            </div>
+        
+            <div class="p-6 md:w-1/2">
+                <p class="text-sm text-gray-500 mb-2">Development, 16 March 2024</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-4">
+                How To Make A Game Look More Attractive With New VR & AI Technology
+                </h3>
+                <p class="text-gray-600 mb-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur animi
+                eius deleniti quasi rerum doloribus eos, illo, suscipit rem tenetur
+                dolorum non necessitatibus...
+                </p>
+                <a href="#"class="inline-block px-4 py-2 text-purple-600 border border-purple-600 rounded hover:bg-purple-600 hover:text-white transition duration-300">Read More</a>
+            </div>
+        </div>
+        <!-- View All Button -->
+        <div class="mt-6 flex justify-end">
+            <a href="#" class="text-white bg-purple-600 px-4 py-2 rounded hover:bg-purple-700 transition duration-300">View All</a>
+        </div>
+    </section>
+
+    <section>
+        <h1>Mosab</h1>
+    </section>
+  
+</body>
+</html>
